@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+ <style>
+        /* Seletor universal */
+        * {
+            margin: 0;
+        }
+        p{
+            /* Seletor de tipo, aplicado em uma teg */
+            color: rgb(47, 255, 0);
+        }
+        /* seletor de classes */
+        .paragrafo{
+            background-color: rgb(85, 0, 255);
+            /* margin: 10px - aplica em todas as margens */
+            /* margin: 10px 40px; - aplica nas margens laterais  superior e inferior  */
+            /* margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left */
+            /* margin-left: 10px; */
+            text-align: center;
+        }
+
+        .imagem{
+            width: 100px;
+            height: 100px;
+        }
+    </style>  
+</head>
+<!-- aplicando CSS inline -->
+<body style="background-color:rgb(191, 0, 255);">
+    Olá mundo !😁😀👍👍
+    Bem vindo!!!
+<!-- cabecalho de 1 a 6 -->
+    <h1>Cabecalho do nivel 1</h1>
+    <h2>Cabecalho do nivel 2</h2>
+    <h3>Cabecalho do nivel 3</h3>
+    <h4>Cabecalho do nivel 4</h4>
+    <h5>Cabecalho do nivel 5</h5>
+    <h6>Cabecalho do nivel 6</h6>
+
+    <!-- insere uma linha na horisontal -->
+     <hr> 
+     <!-- A teg 'p' insere um novo paragrafo -->
+      <p>este é um paragrafo<p>outro paragrafo</p> </p>
+
+      <hr>
+      <!-- A teg br quebra a lhnha, ela nao presisa de fechamento -->
+      <p>este texto é muito grande,<br>
+         que eu desejo quebrar a linha </p>
+     <!-- inserindo um link para abrir uma pagina  -->
+      
+        <a href="https://www.sesisp.org.br">Pagina do sesi</a>
+      
+        <a href="http://192.168.0.128:5500">Paulo</a>
+      <!-- link com atributo _blankpara abrir outra janela -->
+        <a href="https://www.sp.senai.br/" target="_blank">Senai</a>
+
+        <!-- teg img para adicionar uma imagem, 
+        o atributo src é preenchido com o camonho da imagem -->
+
+        <p><img src="img/Albert Einstein.jpeg"></p>
+        
+        <img src="img/pocoyo.gif">
+
+        <p>Paragrafo com caracteres &lt;&gt;</p>
+        
+        <p>&reg; &copy; &trade; &euro; &pound; &ycy; &cent; &delta; &uarr; </p>
+        <!-- para inserir emoji use o hexadecimal do site emojipedia.org.br e o codigo vai depois do &#x -->
+        <p>Inserindo um emoji &#x1F60A &#x2764</p>
+
+
+        <!-- Tegs para para formatação e enfatisação do texto -->
+
+        <b>Texto em negrito</b><br>
+        
+        <strong>Texto inportante</strong>
+        
+        <h1><i> H1 italico</i></h1>
+        
+        <em>Texto enfatisada</em>
+        
+        <mark>Texto matcado</mark>
+        
+        <h3>Texto<small>Menor</small></h3>
+        
+        <del>Texto Excluido</del>
+        
+        <ins>Texto inserido</ins>
+        
+        <u>Texto sublinhado</u>
+        
+        <p>5<sub>4</sub></p>
+        
+        <p>3<sup>6</sup></p>
+
+
+
+        <!-- Aplicação link em uma imagem -->
+
+        <a href="https://www.sesisp.org.br/" target = "_blank"><img src="./img/sesi.jpeg"></a>
+        
+        
+        
+        <p style="font-size: xx-large;">Videos do youtube</p>
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/GTu4TseTSPk" title="Hino do Palmeiras (Letra)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/C-Vy5T-bGY8" title="Pica-Pau Lança um Foguete | 2.5 Horas de Episódios Antigos | Pica-Pau em Português" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <!-- aplicando css interno -->
+        <p class="paragrafo">
+            Albert Einstein
+            <img class="imagem" src="./img/Albert Einstein.jpeg" alt="">
+        </p>
+       
+        <!-- Listas -->
+         <!-- Listas ordenada -->
+        <ol>
+            <li>Acordar</li>
+            <li>Tomar banho</li>
+            <li>Colocar uniforme</li>
+            <li>Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li>Ir para a escola no horario</li>
+        </ol>
+
+        <!-- Lista ordenada com numeros romanos em minusculo-->
+        <ol type="i">
+            <li>Acordar</li>
+            <li>Tomar banho</li>
+            <li>Colocar uniforme</li>
+            <li>Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li>Ir para a escola no horario</li>
+        </ol>
+        <!-- Listas ordenadas com letras maiusculas -->
+        <ol type="A">
+            <li>Acordar</li>
+            <li>Tomar banho</li>
+            <li>Colocar uniforme</li>
+            <li>Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li>Ir para a escola no horario</li>
+        </ol>
+
+        <!-- Lista nao ordenada -->
+         <ul>
+            <li>Carvão</li>
+            <li>Carne</li>
+            <li>Bebida</li>
+            <li>Arroz</li>
+         </ul>
+
+          <!-- Lista dentro da lista  -->
+          <ul>
+            <li>Carne
+                <ul>
+                    <li>Picanha</li>
+                    <li>Ponta de peito</li>
+                    <li>Cupim</li>
+                </ul>
+            </li>
+         </ul>
+
+         <!-- Lista predefinida -->
+         <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para conteudo de um site </dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de estilisação de site</dd>
+            <dt>Javascript</dt>
+            <dd>linguagem de programação</dd>
+         </dl>
+    </body>
+</html>
