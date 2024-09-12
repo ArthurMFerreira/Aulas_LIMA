@@ -1,0 +1,31 @@
+.tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+.cabeçalho, .celula{
+    /* configura o formato da borda */
+    border: 2px solid #020202;
+    /* define o espasamento interno */
+    padding: 10px;
+    text-align: left;
+    color: black;
+    background-color: rgba(120, 120, 120, 0.686);
+}
+.celula1{
+    /* configura o formato da borda */
+    border: 2px solid #000000;
+    /* define o espasamento interno */
+    padding: 10px;
+    text-align: left;
+    color: black;
+    background-color: rgba(4, 0, 255, 0.674);
+}
+.celula2{
+    /* configura o formato da borda */
+    border: 2px solid #000000;
+    /* define o espasamento interno */
+    padding: 10px;
+    text-align: left;
+    color: black;
+    background-color: rgba(255, 181, 53, 0.674);
+}
