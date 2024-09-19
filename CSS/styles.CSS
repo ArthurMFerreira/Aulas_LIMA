@@ -1,10 +1,11 @@
         /* Seletor universal */
         * {
             margin: 0;
+            padding: 0;
         }
         p{
             /* Seletor de tipo, aplicado em uma teg */
-            color: rgba(0, 179, 255, 0.837);
+            color: rgba(0, 0, 255, 0.837);
         }
         /* seletor de classes */
         .paragrafo{
@@ -46,3 +47,79 @@
         .cabeçalho3{
             background-color: rgb(255, 4, 0);
         }
+
+        .formulario{
+            background-color: aquamarine ;
+        }
+
+        .input-nome{
+            /* remove a borda do elemento */
+            border: none;
+            border-radius: 5px;
+            margin-left: 50px;
+            
+            /* define a opacidade do emento */
+            opacity: 70%;
+        }
+        .botao{
+            background-color: rgb(15, 26, 242);
+            border: none;
+            border-radius: 5px;
+            padding: 6px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+            /* aplica sombra no texto posição x,y,blur,rgba que aplica na posição do ocidente */
+            text-shadow: 11px 1px 4px rgb(0, 255, 13);
+        
+        
+        } 
+
+        .checar {
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            /* Modificando o tipo do cursor */
+            cursor: pointer;
+            /* zerar as configurações de aparencia  */
+            appearance: none;
+            background-color: #fff;
+            border: 2px solid #4caf50;
+            border-radius: 5px;
+        }
+        .checar:checked{
+            background-color: #4caf50;
+        }
+        .email{
+            width: 300px;
+            padding: 5px 5px;
+            margin-left: 5px;
+            border: 2px solid white;
+        }
+        .seleção{
+            appearance: none;
+            width: 300px;
+            padding: 4px;
+            font-size: 16px;
+            color: #4a3f3f;
+            background-color: #f9f9f9;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            /* sombra no input */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+       .radio{
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #d3421d;
+        border-radius: 50%;
+        cursor: pointer;
+
+       }
+       /* pseudoclasse, quando o estado do obejeto muda ele atribui outras propriedades */
+       .radio:checked{
+        background-color: rgb(43, 255, 0);
+        border-color: #ff0000;
+       }

@@ -8,10 +8,10 @@
  
 </head>
 <!-- aplicando CSS inline -->
-<body>
+    <body>
     Olá mundo !😁😀👍👍
     Bem vindo!!!
-<!-- cabecalho de 1 a 6 -->
+    <!-- cabecalho de 1 a 6 -->
     <h1>Cabecalho do nivel 1</h1>
     <h2>Cabecalho do nivel 2</h2>
     <h3>Cabecalho do nivel 3</h3>
@@ -222,6 +222,77 @@
     
         </tr>
      </table>
+     <hr>
+     <p>Trabalhando com formulario</p>
+     <form class="formulario">
+        <label>Nome</label>
+        <!-- incerindo um canpo digotavel -->
+         <input type="text"><br>
+         <label>Sobrenome</label>
+         <input type="text" class="input-nome">
+        <!-- tipo senha -->
+         <br><label>Senha</label>
+         <input type="password" placeholder="Digite a senha">
+        <input href="#" type="button" value="Clique aqui" class="botao"><br>
+        
 
-</body>
+        <!-- incluindo Checkbox(opição) -->
+         <input type="checkbox"class = "checar">Eu tenho uma bicicleta <br>
+         <input type="checkbox"class = "checar"> Eu tenho uma Moto <br>
+         <input type="checkbox"class = "checar">Eu tenho uma Carro
+    
+        <!-- incluindo inpit de cor -->
+         <input type="color" value = "#000000"><br>
+         <label>Data de Nascimento</label>
+         <!-- inserindo data -->
+        <input type="date" name="" id=""><br>
+        <input type="datetime-local" name="" id=""><br>
+        
+        <!-- tipo email -->
+         <input type="email" placeholder="" class="email">
+        <!-- incluindo input para selecionar arquivo -->
+         <input type="file"><br>
+    
+        <!-- input de seleção -->
+        <select>
+            o atributo value enviara o valor do intem para o servidor
+            <option value="" selected>Selecione a escolaridade</option>
+            <option value="primeiro colegial">1º Médio</option>
+            <option value="segundo colegial">2º Médio</option>
+            <option value="terceiro colegial">3º Médio</option>
+        </select>
+        <select class="seleção">
+            o atributo value enviara o valor do intem para o servidor
+            <option value="" selected>Selecione a escolaridade</option>
+            <option value="primeiro colegial">1º Médio</option>
+            <option value="segundo colegial">2º Médio</option>
+            <option value="terceiro colegial">3º Médio</option>
+        </select>
+        <!-- criando input radio button -->
+        <p>Radio Button</p>
+        <input type="radio" name="tamenho">Pequeno 
+        <input type="radio" name="tamenho" checked>Médio 
+        <input type="radio" name="tamenho">Grande
+        <input type="radio" name="tamenho">Outra
+        
+        <br>
+
+        <input type="radio" name="tamenho"class = "radio">Pequeno 
+        <input type="radio" name="tamenho" checked class = "radio">Médio 
+        <input type="radio" name="tamenho" class = "radio">Grande
+        <input type="radio" name="tamenho" class = "radio">Outra
+        
+        <!-- cria um grupo de componentes de formulario -->
+    <fieldset>
+        <legend>Descrição</legend>
+        <textarea name="" id="">
+
+        </textarea>
+    </fieldset>
+    
+    <!-- botao de enviar -->
+     <input type="submit" value="Enviar">
+     <input type="reset" value="Linpar">
+    </form>
+    </body>
 </html>
