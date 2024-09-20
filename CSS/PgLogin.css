@@ -1,0 +1,16 @@
+.login {
+    width: 300px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.botao {
+    background-color: rgb(148, 153, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    /* aplica sombra no texto posição x,y,blur,rgba que aplica na posição do ocidente */
+    
+}
