@@ -1,40 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
-    <link rel="stylesheet" href="./CSS/Estilo_flexbox.css">
-</head>
-    <body>
-        <h1>Trabalhando com Div</h1>
-        <div class="div1">
-            <h2>Londres</h2>
-            <p>Londres é a capital da Inglaterra</p>
-            <p>Londres tem 13 milhões de Habitantes</p>
-            <label class="div2">texto</label>
-            <h1 class="div2">texto h1</h1>
-            <label>texto2</label>
-        </div>
-        <div class="div2">
-            <h2>Londres</h2>
-            <p>Londres é a capital da Inglaterra</p>
-            <p>Londres tem 13 milhões de Habitantes</p>
-        </div>
-        <div class="div3">
-            <h2>Londres</h2>
-            <p>Londres é a capital da Inglaterra</p>
-            <p>Londres tem 13 milhões de Habitantes</p>
-        </div>
-        <h1>Trabalhando com Flexbox</h1>
-        <p>Utilizando fexbox para posicionar os elementos em linha ou coluna 
-        de forma dinamica</p>
-        <p>Por padão os elementos são exibidos em bloco (block)</p>
-        <section class="container">
-            <div class="item">Item 1</div>
-            <div class="item">Item 2</div>
-            <div class="item">Item 3</div>
-            <div class="item">Item 4</div>
-        </section>
-    </body>
+    <link rel="stylesheet" href="./CSS/Estilo_flexbox.css" />
+  </head>
+  <body>
+    <h1>Trabalhando com Div</h1>
+    <div class="div1">
+      <h2>Londres</h2>
+      <p>Londres é a capital da Inglaterra</p>
+      <p>Londres tem 13 milhões de Habitantes</p>
+      <label class="div2">texto</label>
+      <h1 class="div2">texto h1</h1>
+      <label>texto2</label>
+    </div>
+    <div class="div2">
+      <h2>Londres</h2>
+      <p>Londres é a capital da Inglaterra</p>
+      <p>Londres tem 13 milhões de Habitantes</p>
+    </div>
+    <div class="div3">
+      <h2>Londres</h2>
+      <p>Londres é a capital da Inglaterra</p>
+      <p>Londres tem 13 milhões de Habitantes</p>
+    </div>
+    <h1>Trabalhando com Flexbox</h1>
+    <p>
+      Utilizando fexbox para posicionar os elementos em linha ou coluna de forma
+      dinamica
+    </p>
+    <p>Por padão os elementos são exibidos em bloco (block)</p>
+    <section class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+    </section>
+
+    <p>fex com mais elementos preenchendo a largura da tela</p>
+
+    <section class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+      </section>
+
+      <section class="flex">
+        <div class="div-coluna"><img src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg"><p>pocoyo</p></div>
+        <div class="div-coluna"><img src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg"><p>pato</p></div>
+        <div class="div-coluna"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU"><p>bob esponde</p></div>
+        <div class="div-coluna"><img src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg"><p>patric</p></div>
+      </section>
+
+      <p>flex wrap - faz a quebra do elemento quando nao há mais espaço na pagina </p>
+    <selection class="secao">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+
+    <p>Justify - content - Alinha os intens flex no conteiner de acorvo com a direção</p>
+    
+    <selection class = "alinhar-esquerda">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+    <selection class = "alinhar-centro">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+    <selection class = "alinhar-direita">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+
+    <p>Alinhar os elementos nos cantos e ajustar ao centro</p>
+    <selection class = "alinhar-entre">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+
+    <p>Alinhar os elementos a partir do espaço ao redor</p>
+    <selection class = "alinhar-redor">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+
+    <p>espaçamento usando colunas</p>
+    <selection class = "alinhar-coluna">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/12/5f/8f/125f8f1c968467e7a1f739770dd12ab3.jpg" alt="">
+        <img class = "secao-imagem"src="https://i.pinimg.com/474x/ab/0a/b7/ab0ab78441f6e2d77246401aac9e7cd3.jpg" alt="">
+        <img class = "secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbQzjOewTIJAMKDl2AG7pnAAL6WstFe3SXHvcUsdK4H0lRZ_3qD38jj3Li1TFjzrFMNc&usqp=CAU" alt="">
+        <img class = "secao-imagem"src="https://static.vecteezy.com/ti/vetor-gratis/p1/22726411-patrick-estrela-dentro-bob-esponja-calca-quadrada-gratis-vetor.jpg" alt="">
+    </selection>
+    <section class="alinhar-itens-centro">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+    </section>
+</body>
 </html>
