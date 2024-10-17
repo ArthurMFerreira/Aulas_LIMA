@@ -92,7 +92,7 @@
   justify-content: space-between;
 }
 
-.containerCard {
+.container-card {
   display: flex;
   flex-direction: row;
   gap: 0.4rem;
@@ -105,30 +105,31 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0.4);
   font-family: Arial, Helvetica, sans-serif;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   gap: 10px;
 }
 .card:hover{
    transform: scale(1.1);
    box-shadow: 0 8px  12px rgba(0, 0, 0.6);
 
 }
-.cabeçalhoCard {
+.cabeçalho-card {
   padding: 10px;
   text-align: center;
 }
 
-.tituloCard {
+.titulo-card {
   margin: 0;
   font-size: 1.5rem;
   color: #333;
 }
 
-.subtituloCard {
+.subtitulo-card {
   margin: 0;
   font-size: 1rem;
   color: #777;
 }
 
-.imagemCard {
+.imagem-card {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -136,29 +137,29 @@
   align-items: center;
 }
 
-.imagemCard > img {
+.imagem-card > img {
   max-width: 100%; /*mantem o limite do tamanho do container*/
   height: auto; /*mantem a proporção da imagem */
 }
-.imagemCard > figcaption {
+.imagem-card > figcaption {
   font-size: 0.8rem;
   padding: 8px;
   text-align: center;
   color: #555;
 }
-.conteudoCard {
+.conteudo-card {
   padding: 10px;
   background-color: #f5f5f5;
   text-align: center;
 }
 
-.rodapeCard{
+.rodape-card{
    background-color: #1f80ff;
    text-align: center;
    padding: 6px;
 }
 
-.botaoCard{
+.botao-card{
    text-decoration: none;
    color: white;
    background-color: blue;
@@ -168,7 +169,7 @@
    display: inline-block;
 }
 
-.botaoCard:hover{
+.botao-card:hover{
    background: #3c90ff;
    width: 150px;
 }

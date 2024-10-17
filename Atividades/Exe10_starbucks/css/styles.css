@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li >a{
+    color: black;
+}
+li >a:hover{
+    color: #d4e9e2;
+}
+
+ul > img{
+    max-width: 5%;
+}
+
+.historias{
+    max-width: 14%;
+}
+
+.banner{
+    max-width: 99%;
+    max-height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main > div{
+    background-color: #d4e9e2;
+    padding: 10px;
+}
+
+.texto-card{
+    text-align: center;
+}
+
+.botao-card{
+    text-decoration: none;
+    color: black;
+    background-color: #d4e9e2;
+    border-radius: 4px;
+    padding: 5px 6px;
+    /* permite definie a largura e altura, alinha elementos na menma linha */
+    display: inline-block;
+    border: 3px;
+    border-bottom: black;
+}
