@@ -123,3 +123,29 @@
         background-color: rgb(43, 255, 0);
         border-color: #ff0000;
        }
+
+       /* LG - GRANDE */
+@media (max-width: 1199px){
+
+}
+
+/* MD - Medio */
+@media (max-width: 991px){
+
+}
+/* SM - PEQUENO */
+@media ( max-width: 768px) {
+    .banner-text h1{
+        font-size: 2.0rem;
+    }
+    .card > img{
+        height: 150px;
+    }
+}
+
+/* XS - EXTRA PEQUENO */
+@media (max-width: 576px){
+    .banner-text h1{
+        font-size: 1.5 rem;
+    }
+}
